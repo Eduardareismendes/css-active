@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Berkshire+Swash&display=swap');
+
+body{
+    background-image: linear-gradient(to left, blue, orangered, yellow);
+    background-size: 500% 100%;
+    animation: degarde-animado 5s infinite alternate;
+}
+
+@keyframes degarde-animado {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
+}
+
+header{
+    color: #ffffff;
+    text-align: center;
+    padding: 2%;
+    font-size: 30px;
+}
+
+h1{
+    font-family: 'Berkshire Swash', cursive;
+}
+
+section{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+}
+
+figure{
+    height: 483px;
+    width: 485px;
+}
+
+#img1 {
+    background-image: url('../img_marvel/homem_aranha.jpg');
+    width: 600px;
+    height: 335px;
+    border: 10px solid #ff0000;
+}
+
+#img1:active {
+    background-image: url('../img_dc/superman.png');
+    width: 570px;
+    height: 380px;
+    border: 10px solid #1adbe9;
+    transform: scale(0.9);
+}
+
+
+#img2 {
+    background-image: url('../img_marvel/falcao.jpg');
+    border: 10px solid #2bff00;
+    width: 612px;
+    height: 380px;
+}
+
+#img2:active {
+    background-image: url('../img_dc/robin.jpeg');
+    border: 10px solid #9100b6;
+    width: 612px;
+    height: 380px;
+    transform: scale(0.9);
+}
+
+
+#img3 {
+    background-image: url('../img_marvel/capitao_america.jpeg');
+    border: 10px solid #ee13e3;
+    width: 760px;
+    height: 398px;
+}
+
+#img3:active {
+    background-image: url('../img_dc/flash.jpeg');
+    width: 760px;
+    height: 398px;
+    border: 10px solid #9c005b;
+    transform: scale(0.9);
+}
+
+
+#img4 {
+    background-image: url('../img_marvel/dr_estranho.jpg');
+    border: 10px solid #ffa115;
+    width: 700px;
+    height: 466px;
+}
+
+#img4:active {
+    background-image: url('../img_dc/cacador_marte.jpg');
+    width: 700px;
+    height: 394px;
+    border: 10px solid #f1e20d;
+    transform: scale(0.9);
+}
+
+#img5 {
+    background-image: url('../img_marvel/homem_ferro.jpg');
+    border: 10px solid #007427;
+    width: 700px;
+    height: 400px;
+}
+
+#img5:active {
+    background-image: url('../img_dc/arqueiro_verde.jpg');
+    width: 700px;
+    height: 394px;
+    border: 10px solid #69ff55;
+    transform: scale(0.9);
+}
+
+#img6 {
+    background-image: url('../img_marvel/homem_formiga.jpg');
+    border: 10px solid #4e1442;
+    width: 610px;
+    height: 400px;
+}
+
+#img6:active {
+    background-image: url('../img_dc/batgirl.png');
+    width: 609px;
+    height: 303px;
+    border: 10px solid #ba63c2;
+    transform: scale(0.9);
+}
+
+#img7 {
+    background-image: url('../img_marvel/hulk.jpg');
+    border: 10px solid #680000;
+    width: 720px;
+    height: 405px;
+}
+
+#img7:active {
+    background-image: url('../img_dc/batman.jpg');
+    width: 720px;
+    height: 405px;
+    border: 10px solid #a51212;
+    transform: scale(0.9);
+}
+
+#img8 {
+    background-image: url('../img_marvel/pantera_negra.jpg');
+    border: 10px solid #756cf0;
+    width: 600px;
+    height: 451px;
+}
+
+#img8:active {
+    background-image: url('../img_dc/canario_negro.jpg');
+    width: 600px;
+    height: 400px;
+    border: 10px solid #14656b;
+    transform: scale(0.9);
+}
+
+#img9 {
+    background-image: url('../img_marvel/thor.jpg');
+    border: 10px solid #ecdd00;
+    width: 640px;
+    height: 320px;
+}
+
+#img9:active {
+    background-image: url('../img_dc/laterna_verde.png');
+    width: 600px;
+    height: 400px;
+    border: 10px solid #f1db5d;
+    transform: scale(0.9);
+}
+
+#img10 {
+    background-image: url('../img_marvel/viuva_negra.jpg');
+    border: 10px solid #04a1a1;
+    width: 720px;
+    height: 324px;
+}
+
+#img10:active {
+    background-image: url('../img_dc/mulher_maravilha.jpg');
+    width: 720px;
+    height: 405px;
+    border: 10px solid #6effff;
+    transform: scale(0.9);
+}
+
+.texto {
+    color: #ffffff;
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+}
